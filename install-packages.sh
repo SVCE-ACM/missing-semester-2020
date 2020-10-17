@@ -22,6 +22,4 @@ sudo apt install -y docker-ce && \
 sudo systemctl status docker && \
 sudo usermod -aG docker ${USER} && \
 su - ${USER} && \
-id -nG && \
-echo Cloning Repository.... && \ 
-git clone https://github.com/SVCE-ACM/missing-semester-2020.git
+id -nG

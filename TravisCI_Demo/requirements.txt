@@ -1,0 +1,5 @@
+Flask
+Flask-BasicAuth
+codecov
+pylint
+pytest
