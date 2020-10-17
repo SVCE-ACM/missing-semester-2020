@@ -1,0 +1,26 @@
+language: python
+python:
+  - "3.5"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install codecov
+    #For Coverage Report
+# command to run tests
+script:
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
+  - python palindrom-test.py
+  - coverage run palindrom-test.py
+branches:
+  only:
+   - master
+after_success:
+    - coveralls
+    - codecov
+    
+notifications:
+  email:
+    recipients:
+   #   - prithvisekhp@xxx.com #default sends to registered email
+    on_success: always
+    on_failure: always
