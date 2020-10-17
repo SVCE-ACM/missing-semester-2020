@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-This is a temporary script file. Simple code to check palindrome or not
-Created on Wed June 24 10:56:13 2018
-
-@author: prithvisekhp
-"""
+#!/usr/bin/env python3
 
 def palindromCheck(inputUser):
     array = []
