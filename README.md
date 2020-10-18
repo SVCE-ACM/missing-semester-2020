@@ -12,7 +12,7 @@
 **For this session, we will be working on a virtual machine. Download and Install the appropriate version of VirtualBox with the Oracle VM VirtualBox Extension Pack for your machine from this link:
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)**
 
-**After Installing VirtualBox, Kindly download the OVA file (~4GB) with a Virtual Machine that houses all the IDE, tools and softwares required for Workshop.
+**After Installing VirtualBox, Kindly download the OVA file (~4GB) with a Virtual Machine based on Lubuntu 20.04 (x64) that houses all the IDE, tools and softwares required for Workshop.
 [https://svce.cc/ms-playground ](https://svce.cc/ms-playground):open_file_folder:**
 
 ## Tools and Topics Discussed :wrench:
